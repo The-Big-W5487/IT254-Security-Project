@@ -1,7 +1,7 @@
 # IT254-Security-Project
 IT254 Raspberry Pi5 AI hardware pipeline
 
-# AI-Hardware Pipelines: Camera & Pan Tracking Project
+## AI-Hardware Pipelines: Camera & Pan Tracking Project
 
 Individual project for **AI-Hardware Pipelines** (`10/12/2026` demo series), covering USB webcam capture, object/person detection, and horizontal pan tracking with a servo bracket.
 
@@ -26,6 +26,7 @@ Individual project for **AI-Hardware Pipelines** (`10/12/2026` demo series), cov
    ```bash
    cd pi5_vision_project
    source venv/bin/activate
+   ```
 
 ## Raspberry Pi5 config Issues
 - **Camera Jitter:** The camera feed was a little jittery during testing/tracking, which affected how smooth the tracking behavior felt.
