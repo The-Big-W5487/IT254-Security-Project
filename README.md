@@ -26,3 +26,8 @@ Individual project for **AI-Hardware Pipelines** (`10/12/2026` demo series), cov
    ```bash
    cd pi5_vision_project
    source venv/bin/activate
+
+## Raspberry Pi5 config Issues
+- **Camera Jitter:** The camera feed was a little jittery during testing/tracking, which affected how smooth the tracking behavior felt.
+- **Imports & Package Installation:** We had to repeatedly install/download the required Python import packages to get the scripts running smoothly in the environment.
+- **Single-Target Selection (Closest Person):** Instead of tracking multiple people at once, we updated the logic so the camera tracks only the closest person to the camera.
